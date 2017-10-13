@@ -1,0 +1,4 @@
+services:
+#    modis_platform.example:
+#        class: Modis\PlatformBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

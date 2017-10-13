@@ -1,0 +1,41 @@
+Modis_platform_home:
+    path:      /{page}
+    defaults:
+        _controller: ModisPlatformBundle:Advert:index
+        page:        1
+    requirements:
+        page: \d*
+
+
+Modis_platform_view:
+    path:      /advert/{id}
+    defaults:
+        _controller: ModisPlatformBundle:Advert:view
+    requirements:
+        id: \d+
+
+
+Modis_platform_add:
+    path:      /add
+    defaults:
+        _controller: ModisPlatformBundle:Advert:add
+
+Modis_platform_menu:
+    path:      /menu
+    defaults:
+        _controller: ModisPlatformBundle:Advert:menu
+
+Modis_platform_edit:
+    path:      /edit/{id}
+    defaults:
+        _controller: ModisPlatformBundle:Advert:edit
+    requirements:
+        id: \d+
+
+
+Modis_platform_delete:
+    path:      /delete/{id}
+    defaults:
+        _controller: ModisPlatformBundle:Advert:delete
+    requirements:
+        id: \d+

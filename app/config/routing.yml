@@ -1,0 +1,4 @@
+modis_platform:
+    resource: "@ModisPlatformBundle/Resources/config/routing.yml"
+    prefix:   /platform
+
